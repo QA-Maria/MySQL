@@ -1,0 +1,1 @@
+SELECT * FROM airplane.airplane_pilot, airplane.pilot, airplane.airplane;
