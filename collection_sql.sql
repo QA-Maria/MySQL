@@ -1,8 +1,8 @@
 SELECT * FROM airplane.airplane_pilot, airplane.pilot, airplane.airplane; # Вывод из БД Airplane все таблицы
 
-SELECT * FROM airplane.pilot ORDER BY first_name DESC; # 
+SELECT * FROM airplane.pilot ORDER BY first_name DESC; # Вывод из таблицы Pilot, отсортированы по First_name по убыванию
 
-SELECT * FROM airplane.airplane_pilot WHERE pilot_id = 1 order by id DESC;
+SELECT * FROM airplane.airplane_pilot WHERE pilot_id = 1 order by id DESC; # Вывод из таблицы Airplane_pilon с условием по id=1, отсортированы по id и по убыванию 
 
 SELECT COUNT(*) as count FROM airplane_pilot WHERE airplane_id=1;
 
