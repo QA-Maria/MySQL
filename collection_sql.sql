@@ -12,4 +12,4 @@ FROM airplane_pilot JOIN airplane
 ON airplane_pilot.airplane_id = airplane.airplane_id
 JOIN pilot 
 ON airplane_pilot.pilot_id = pilot.pilot_id
-WHERE pilot.pilot_id<4; # 
+WHERE pilot.pilot_id<4; # Выводит указанные таблицы, соединяя их в одну, с условием совпадения после слова ON
